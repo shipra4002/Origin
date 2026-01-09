@@ -10,142 +10,51 @@
       background-color: #F7F3E8;
       font-family: Georgia, serif;
     }
-    .pattern-line {
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Kalamkari_Tree_of_Life.jpg');
-      background-repeat: repeat-x;
-      background-size: contain;
-      height: 60px;
-      opacity: 0.2;
-      margin-bottom: 40px;
-    }
   </style>
 </head>
 
 <body class="text-gray-900">
 
-  <!-- NAV -->
-  <header class="flex justify-between items-center px-10 py-6 border-b border-gray-300 bg-[#FAF7EE]">
-    <h1 class="text-3xl font-bold tracking-wide">Origin</h1>
-    <nav class="flex gap-8 text-lg">
-      <a href="#features" class="hover:text-gray-600">Features</a>
-      <a href="#network" class="hover:text-gray-600">Cultural Network</a>
-      <a href="#contact" class="hover:text-gray-600">Contact</a>
-      <a href="#demo" class="px-4 py-2 border border-gray-900 rounded hover:bg-gray-900 hover:text-white transition">Request Demo</a>
-    </nav>
-  </header>
+<header class="flex justify-between items-center px-10 py-6 border-b border-gray-300 bg-[#FAF7EE]">
+  <h1 class="text-3xl font-bold tracking-wide">Origin</h1>
+  <nav class="flex gap-8 text-lg">
+    <a href="#features">Features</a>
+    <a href="#network">Cultural Network</a>
+    <a href="#contact">Contact</a>
+    <a href="#demo" class="px-4 py-2 border border-gray-900 rounded hover:bg-gray-900 hover:text-white transition">Request Demo</a>
+  </nav>
+</header>
 
-  <!-- HERO -->
-  <section class="px-10 pt-20 pb-32 flex flex-col lg:flex-row items-center gap-10">
-    <div class="max-w-xl">
-      <h2 class="text-5xl font-bold leading-tight mb-6">
-        Cultural Heritage,<br>
-        Attributed & Licensed<br>
-        for the World.
-      </h2>
-      <p class="text-xl text-gray-700 leading-relaxed">
-        Origin protects traditional crafts through verified attribution, ethical licensing, and royalty infrastructure — enabling global fashion to collaborate without erasure.
-      </p>
-      <div class="flex gap-4 mt-8">
-        <a href="#demo" class="px-6 py-3 bg-gray-900 text-white rounded-lg text-lg hover:bg-gray-700 transition">Book a Demo</a>
-        <a href="#network" class="px-6 py-3 border border-gray-900 rounded-lg text-lg hover:bg-gray-100 transition">Explore Network</a>
-      </div>
+<section class="relative h-[80vh] bg-center bg-cover flex items-center"
+         style="background-image:url('https://images.unsplash.com/photo-1605559424843-4d463b131f44?auto=format&fit=crop&w=1600&q=80');">
+  
+  <div class="absolute inset-0 bg-black/30"></div>
+
+  <div class="relative z-10 max-w-3xl ml-10 bg-[#F7F3E8]/85 p-10 rounded-lg backdrop-blur-sm">
+    <h2 class="text-5xl font-bold leading-tight mb-6">Cultural Heritage, Attributed & Licensed for the World.</h2>
+    <p class="text-xl text-gray-800 mb-8">Origin protects traditional crafts through verified attribution, ethical licensing, and royalty infrastructure — enabling global fashion to collaborate without erasure.</p>
+    <div class="flex gap-4">
+      <a href="#demo" class="px-6 py-3 bg-gray-900 text-white rounded-lg text-lg hover:bg-gray-700 transition">Book a Demo</a>
+      <a href="#network" class="px-6 py-3 border border-gray-900 rounded-lg text-lg hover:bg-gray-100 transition">Explore Network</a>
     </div>
+  </div>
+</section>
 
-    <img src="https://images.unsplash.com/photo-1605559424843-4d463b131f44" 
-         alt="Kalamkari Painting" 
-         class="rounded-xl shadow-lg w-full max-w-lg border border-gray-300">
-  </section>
+<section id="features" class="px-10 py-24">
+  <h3 class="text-4xl font-bold mb-10">What Origin Enables</h3>
+  <div class="grid md:grid-cols-2 gap-10 text-lg">
+    <div class="p-6 border rounded-xl bg-white shadow-sm">Verified Attribution</div>
+    <div class="p-6 border rounded-xl bg-white shadow-sm">Ethical Licensing</div>
+    <div class="p-6 border rounded-xl bg-white shadow-sm">Automated Royalties</div>
+    <div class="p-6 border rounded-xl bg-white shadow-sm">Provenance & ESG Data</div>
+  </div>
+</section>
 
-  <div class="pattern-line"></div>
-
-  <!-- FEATURES -->
-  <section id="features" class="px-10 pb-28">
-    <h3 class="text-4xl font-bold mb-10">What Origin Enables for Brands & Designers</h3>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-      <div class="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-        <h4 class="text-2xl font-bold mb-2">Verified Attribution</h4>
-        <p class="text-gray-700">Registry for textiles, motifs, and garments with cultural provenance metadata.</p>
-      </div>
-
-      <div class="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-        <h4 class="text-2xl font-bold mb-2">Ethical Licensing</h4>
-        <p class="text-gray-700">Collaborate with artisan clusters via transparent usage guidelines.</p>
-      </div>
-
-      <div class="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-        <h4 class="text-2xl font-bold mb-2">Automated Royalties</h4>
-        <p class="text-gray-700">Smart contracts ensure artisans are compensated without middlemen.</p>
-      </div>
-
-      <div class="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-        <h4 class="text-2xl font-bold mb-2">Provenance & ESG Data</h4>
-        <p class="text-gray-700">Exportable cultural provenance for compliance, ESG reporting, and consumer trust.</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="pattern-line"></div>
-
-  <!-- CULTURAL NETWORK -->
-  <section id="network" class="px-10 pb-28">
-    <h3 class="text-4xl font-bold mb-10">A Cultural Network Rooted in Craft</h3>
-
-    <p class="max-w-3xl text-lg text-gray-700 leading-relaxed mb-10">
-      Origin partners with artisan communities, cooperatives, and cultural institutions to preserve techniques, archive knowledge, and introduce fair pathways for global collaboration.
-    </p>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="p-6 bg-[#F6F0DF] border border-gray-300 rounded-lg">
-        <h4 class="text-xl font-semibold">Artisan Visibility</h4>
-        <p class="text-gray-700 mt-2">Creators are credited by name, not lost in supply chains.</p>
-      </div>
-
-      <div class="p-6 bg-[#F6F0DF] border border-gray-300 rounded-lg">
-        <h4 class="text-xl font-semibold">Cultural Accuracy</h4>
-        <p class="text-gray-700 mt-2">Craft is contextualized by region, lineage, and meaning.</p>
-      </div>
-
-      <div class="p-6 bg-[#F6F0DF] border border-gray-300 rounded-lg">
-        <h4 class="text-xl font-semibold">Economic Dignity</h4>
-        <p class="text-gray-700 mt-2">Royalty infrastructure ensures value returns to custodians.</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="pattern-line"></div>
-
-  <!-- TESTIMONIALS -->
-  <section id="testimonials" class="px-10 pb-32">
-    <h3 class="text-4xl font-bold mb-12 text-center">Voices from the Ecosystem</h3>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-
-      <div class="p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-        <p class="italic text-gray-700">“For the first time, international buyers acknowledged our weaving lineage.”</p>
-        <p class="mt-4 font-semibold">— Lakshmi Devi, Kalamkari Artisan</p>
-      </div>
-
-      <div class="p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-        <p class="italic text-gray-700">“Licensing motifs removed cultural hesitancy and legal risk.”</p>
-        <p class="mt-4 font-semibold">— Creative Director, Luxury Fashion House</p>
-      </div>
-
-      <div class="p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-        <p class="italic text-gray-700">“Consumers are demanding provenance. Origin helps us tell that story.”</p>
-        <p class="mt-4 font-semibold">— Ethical Retail Buyer, EU Market</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer id="contact" class="px-10 py-20 bg-gray-900 text-white">
-    <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
-    <p class="text-lg mb-6">Partnerships, onboarding, licensing, or press inquiries — we’d love to connect.</p>
-    <a href="mailto:hello@origin.world" class="underline text-lg">hello@origin.world</a>
-    <p class="text-gray-400 mt-10">© 2026 Origin — Cultural Attribution Platform</p>
-  </footer>
+<footer id="contact" class="px-10 py-20 bg-gray-900 text-white">
+  <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+  <p class="text-lg mb-6">hello@origin.world</p>
+  <p class="text-gray-400">© 2026 Origin</p>
+</footer>
 
 </body>
 </html>
